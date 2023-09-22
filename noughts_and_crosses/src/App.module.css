@@ -1,0 +1,39 @@
+/* App.module.css */
+
+.app {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin: 20px auto;
+	max-width: 100px;
+	padding: 20px;
+}
+
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.game_info {
+	margin-top: 20px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+button {
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #0056b3;
+}
